@@ -39,10 +39,15 @@ export default function Footer() {
           <div className="md:col-span-3">
             <p className="text-sm font-semibold text-text mb-4 font-heading">Services</p>
             <ul className="space-y-2.5">
-              {['Security Data Platforms', 'Compliance', 'AI Security', 'Professional Services'].map((s) => (
-                <li key={s}>
-                  <Link to="/services" className="text-text-secondary text-sm hover:text-primary transition-colors duration-200 cursor-pointer">
-                    {s}
+              {[
+                { label: 'Security Data Platforms', path: '/services/data-platforms' },
+                { label: 'Compliance', path: '/services/compliance' },
+                { label: 'AI Security', path: '/services/ai-security' },
+                { label: 'Professional Services', path: '/services/professional' },
+              ].map(({ label, path }) => (
+                <li key={path}>
+                  <Link to={path} className="text-text-secondary text-sm hover:text-primary transition-colors duration-200 cursor-pointer">
+                    {label}
                   </Link>
                 </li>
               ))}
