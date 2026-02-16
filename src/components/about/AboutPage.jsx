@@ -55,8 +55,8 @@ export default function AboutPage() {
       <section className="py-20 sm:py-24">
         <div className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-text mb-5 font-heading">Ready to Connect?</h2>
-          <Button to="/contact">
-            Reach Out <ArrowRight className="w-4 h-4 ml-2" />
+          <Button href="https://calendar.app.google/2tKotEhiAWfqv6y69" target="_blank" rel="noopener noreferrer">
+            Book a Consultation <ArrowRight className="w-4 h-4 ml-2" />
           </Button>
         </div>
       </section>

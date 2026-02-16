@@ -12,7 +12,7 @@ export default function Hero() {
           Security data platforms, compliance, and AI security — engineered by the people who build it.
         </p>
         <div className="animate-fade-up anim-delay-2 flex justify-center gap-4">
-          <Button to="/contact">
+          <Button href="https://calendar.app.google/2tKotEhiAWfqv6y69" target="_blank" rel="noopener noreferrer">
             Book a Consultation <ArrowRight className="w-4 h-4 ml-2" />
           </Button>
           <Button to="/services" variant="outline">

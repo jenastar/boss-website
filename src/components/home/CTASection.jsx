@@ -9,8 +9,8 @@ export default function CTASection() {
           Let's Solve It Together
         </h2>
         <p className="text-blue-100 mb-8">Tell us the challenge. We'll respond within one business day.</p>
-        <Button to="/contact" variant="white">
-          Start a Conversation <ArrowRight className="w-4 h-4 ml-2" />
+        <Button href="https://calendar.app.google/2tKotEhiAWfqv6y69" target="_blank" rel="noopener noreferrer" variant="white">
+          Book a Call <ArrowRight className="w-4 h-4 ml-2" />
         </Button>
       </div>
     </section>
