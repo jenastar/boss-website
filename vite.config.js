@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: '/boss-website/',
+  base: '/',
   server: {
     watch: {
       usePolling: true,
